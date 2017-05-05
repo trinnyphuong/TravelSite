@@ -1,0 +1,13 @@
+CREATE TABLE User (
+	loginId VARCHAR(20) UNIQUE NOT NULL,
+	password VARCHAR(30) NOT NULL,
+	CONSTRAINT PK_User PRIMARY KEY(loginId)
+);
+
+CREATE TABLE Search (
+	searchId INT IDENTITY(1,1),
+	loginId VARCHAR(20) NOT NULL,
+	location VARCHAR(50),
+	CONSTRAINT PK_Search PRIMARY KEY(searchId),
+	CONSTRAINT FK_History_User FOREIGN KEY(loginId) REFERENCES User(loginId)
+);

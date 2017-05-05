@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Raleway", Helvetica, sans-serif;
+    text-decoration:none;
+    }
+
+.text-center{
+	clear: both;
+	text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#header{
+	background-image: url("images/skysun.jpg");
+	background-size: cover;
+	background-repeat: round;
+	display:block;
+	height: 230px;
+	text-indent:-9999px;
+}
+
+#links{
+    margin: 0px;
+    background-color: darkslateblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size : 17px;
+}
+
+#t1{
+    margin-left: 90px;
+}
+
+#refAPI1{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+
+#refAPI2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#refAPI3{
+	position: absolute;
+    right: 130px;
+    top: 10px;
+}
+
+.linkpage{
+    color: white;
+	text-decoration: none;
+    line-height: 19px;
+    text-align: center;
+    margin: 3px 30px 3px 20px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.linkpage:hover{
+	font-weight : bold;
+    color:lightgrey;
+    text-decoration:none;
+}
+
+.linksearch{
+    text-decoration:none;
+}
+
+.linksearch:hover{
+	font-weight : bold;
+    color: darkblue;
+    text-decoration:none;
+}
+
+.left-align{
+	text-align: left;
+	margin-left : 20px;
+}
+
+.bloc1{
+	color: #565455;
+	background-color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 5Opx;
+}
+
+.bloc1 p,h3 	
+{
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.red-color{
+	color: red;
+}
+
+.map{
+    width: 50%;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.login_window{
+    float: right;
+    width: 20%;
+    margin: 0px auto;
+    margin-right: 40px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 0 2px  darkslateblue;
+    text-transform: uppercase;
+}
+
+.login_window p{
+	font-weight : bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+.register_window{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    margin-left: 20%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 0 2px  darkslateblue;
+    text-transform: uppercase;
+}
+
+.register_window p{
+	font-weight : bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.user_input{
+    padding: 4px 4px;
+    border: 1px solid #ccc;
+}
+
+#user_input_place{
+    width: 300px;
+}
+
+.bloc
+{
+	background-color: white;
+	width: 65%;
+	margin: 0px auto;
+    margin-left: 100px;
+	margin-bottom: 5%;
+}
+
+#correct_bloc{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.unic{
+	padding: 30px;
+	line-height: 20px;
+}
+
+.lien{
+	display: inline-block;
+    padding: 10px;
+	color:  blue;
+	font-size: 1.2em;
+	margin: 30px;
+	width: 180px;
+	border-radius: 40px;
+	text-align: center;
+	font-weight: bold;
+    box-shadow: 0 0 0 2px  blue;
+}
+
+.lien:hover{
+    font-weight : bold;
+    text-decoration:none;
+    color: white;
+    background-color: cornflowerblue;
+
+}
+
+.weather{
+	position: absolute;
+	left: 800px;
+    top: 450px;
+}
+
+#lookup{
+    text-align: center;
+}
+
+.clear{
+	clear:both;
+}
+
+footer{
+	background-color: #1e2832;
+	color: #a4a9ad;
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+footer .fa{
+    font-size: 40px;
+}
